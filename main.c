@@ -126,7 +126,7 @@ int main(void)
     printf("\x1b[2J\x1b[;H");
 
     printf("*************** "
-            "XMC7000 MCU: Multi-Counter Watchdog Timer Example "
+            "Multi-Counter Watchdog Timer Example "
             "*************** \r\n\n");
 
     printf("\r\nMCWDT initialization is complete. USER LED blinking \r\n");
