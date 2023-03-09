@@ -20,7 +20,7 @@ This example shows how to configure TRAVEO™ T2G MCWDT Subcounter0/1 and Subcou
 
 ## Supported kits (make variable 'TARGET')
 
-- TRAVEO™ T2G body high evaluation kit (`KIT_T2G_B-H_LITE`) - Default value of `TARGET`
+- TRAVEO™ T2G body high evaluation kit (`KIT_T2G-B-H_LITE`) - Default value of `TARGET`
 
 ## Hardware setup
 
