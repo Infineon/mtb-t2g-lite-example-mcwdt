@@ -50,7 +50,7 @@
 /* MCWDT_0 interrupt configuration structure */
 cy_stc_sysint_t mcwdt_irq_cfg =
 {
-    .intrSrc = ((NvicMux3_IRQn << 16) | srss_interrupt_mcwdt_0_IRQn),
+    .intrSrc = ((NvicMux3_IRQn << CY_SYSINT_INTRSRC_MUXIRQ_SHIFT) | srss_interrupt_mcwdt_0_IRQn),
     .intrPriority = 2UL
 };
 
@@ -126,7 +126,7 @@ int main(void)
     printf("\x1b[2J\x1b[;H");
 
     printf("*************** "
-            "Multi-Counter Watchdog Timer Example "
+            "MCU: Multi-Counter Watchdog Timer Example "
             "*************** \r\n\n");
 
     printf("\r\nMCWDT initialization is complete. USER LED blinking \r\n");
